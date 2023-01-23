@@ -7,6 +7,21 @@
   pointer-events: none;
 }
 
+.header1 {
+  background-color: rgb(143, 116, 66);
+  height: 10%;
+  border: 1px solid black;
+  display: flex;
+
+}
+
+.cart-div {
+  float: right;
+  margin: 24px;
+  position: absolute;
+right : -1px;
+  border: 1px solid black;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
