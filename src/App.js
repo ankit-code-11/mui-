@@ -8,10 +8,9 @@ function App() {
   const product = {
     name: 'Apple',
     price: 100,
-
-  }
+  };
   return (
-    <div className="App">
+    <div className="App" >
       <button onClick={() => dispatch(addToCart(product))} >
         Add to Cart
       </button>

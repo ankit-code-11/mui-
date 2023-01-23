@@ -1,10 +1,10 @@
 import {createStore} from 'redux';
 import rootReducer from "./rootReducer"
 
-const dummyState = () => {
-    return 100
-}
 
-const store = createStore(dummyState)
+
+const store = createStore(rootReducer)
+
+
 
 export default store

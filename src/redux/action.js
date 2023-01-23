@@ -1,7 +1,7 @@
-export const addToCart = (product) => {
-    console.log(product);
+export const addToCart = (data) => {
+    console.log(data);
     return {
         type: 'ADD_TO_CART',
-        data: product
+        data
     }
 }
